@@ -56,7 +56,27 @@
 // console.log(sum(30, 20, add))
 
 // IFE
-(function name(name){
-console.log(`${name}`)
-})("alif")
+// (function name(name){
+// console.log(`${name}`)
+// })("alif")
 
+
+// // normal function
+// function division( x, y){
+//     return Math.ceil(x/y);
+// }
+// let page = 400;
+// let perday = 7;
+// let total = division(page, perday);
+// console.log(total);
+
+
+// normal function syntax                           
+function sum(){
+ // code block
+};
+
+function div(pages, pagePerDay){
+    return(pages/pagePerDay);
+}
+console.log(div(400, 7));
