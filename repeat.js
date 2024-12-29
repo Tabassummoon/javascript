@@ -29,7 +29,7 @@ d1. && ---> and
 d2. || --> or
 d3. ! --> not
 e. tarnery operators
-e1. condition ? true : false
+e1. condition ? true : false 
 4. function 
 5. object 
 6. string

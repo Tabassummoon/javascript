@@ -22,23 +22,41 @@
 //         }
 //     }       
 // };
-// console.log(employee.skill1);
-const users = [
-    {
-        id : 1,
-        Name : 'Alise Jhonson',
-        Age : 25,
-        email: 'alish@gmail.com',
-        phone: "98874874",
-        address: {
-            street : '123 main st',
-            city: "New York",
-            state: 'NY',
-            zip: '10001'
-        },
-        occupation: "software engineer",
-        hobbies: ["reading", "travelling", "coading"],
+// console.log(employee.skill1)
+//  object
+let users =  {
+      firstName : 'Protiva',
+      lastName : 'Saha',
+      occupation : 'student',
+      country : 'Bangladesh',
+      age : 24,
+      isAdmin : true,
+    },
 
-    }
-]
-console.log(users[0].address.city);
+    // json
+ let users = {
+    "firsName" : "Protiva"
+    "lastName" :  "Saha",
+      "occupation" : 'student',
+      "country" : 'Bangladesh',
+      "age" : 24,
+      "isAdmin" : true,
+
+ }
+
+    // {
+    //    firstName : 'Tabassum',
+    //    lastName : 'Islam',
+    //    occupation : 'student',
+    //    country : 'Bangladesh',
+    //    age : 24,
+    // },
+    // {
+    //    firstName : 'shakil',
+    //   lastName : 'Islam',
+    //   occupation : 'student',
+    //   country : 'Bangladesh',
+    //    age : 24,
+    // },
+   
+   
