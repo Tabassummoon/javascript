@@ -8,8 +8,12 @@ function showData(products){
   let productDiv = document. createElement("div");
   productDiv.className ="product";
     productDiv.innerHTML = `
+    <img src=${product.img} alt="">
     <h1>${product.name}</h1>
-    <p>${product.price}</p>
+    <p>${product.description}</p>
+    <p>price:${product.price}</p>
+    <p>rating:${product.rating}</p>
+    <button>buy</button>
     `
     singleProduct.appendChild(productDiv)
     })
